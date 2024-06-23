@@ -1,0 +1,21 @@
+.container .main .header h1{
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    animation: header 10s linear infinite;
+    color: aqua;
+}
+.container .main .header{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: orangered;
+}
+
+.container .main .header h1:hover{
+    color: white;
+}
+@keyframes header {
+    from { transform: translateX(100%); }
+    to { transform: translateX(-10%); }
+}
